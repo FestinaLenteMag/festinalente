@@ -95,6 +95,57 @@
             </div>
         </section>
 		<!--end of initial layout--> 
+		
+		<!--selectors and buttons-->
+		<div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+            <!--here Issue selector using a big Dropdown menu (Bootstrap again)-->
+            <div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Select Issue
+  				</button>
+  				<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    				<li><a class="dropdown-item" href="issue_museum.html">Museums</a></li>
+    				<li><a class="dropdown-item" href="issue_ebook.html">E-book</a></li>
+  				</ul>
+			</div>
+		</div>
+		<!-- bottoni style selector-->
+		<div id="style_selector" class="d-flex justify-content-center">
+			<button type="button" id="aldine" class="btn btn-outline-secondary" onclick="changeStyle('styles/1500/aldine.css')">Aldine</button>
+			<button type="button" id="hiphop" class="btn btn-outline-danger" onclick="changeStyle('styles/hiphop/hiphop.css')">Hip-Hop</button>
+			<button type="button" id="cubism" class="btn btn-outline-success" onclick="changeStyle('styles/cubismo/cubismo.css')">Cubism</button>
+			<button type="button" id="hippie" class="btn btn-outline-warning" onclick="changeStyle('styles/hippie/hippie.css')">Hippie</button>
+			<button type="button" id="victorian" class="btn btn-outline-info" onclick="changeStyle('styles/19thW/19thW.css')">Victorian</button>
+			<button type="button" id="accessible" class="btn btn-outline-dark" onclick="changeStyle('styles/2030/2030.css')">Accessible</button>
+			<button type="button" id="reset" class="btn btn-outline-white" onclick="changeStyle('')">Reset</button>
+		</div>
+		
+		<div id="space">
+		
+		<!--actual article triple visualisation layout-->
+		<div class="container" >
+			<div class="row align-items-start">    
+			<!-- article columns: 1st column for an article -->
+            <div class="col-6 col-md-4">
+              <div class="p-3 border bg-light" >
+				<div> Please select issue to read an article</div>
+            </div>
+			</div>
+            <!-- article columns: 2nd column for an article -->
+            <div class="col-6 col-md-4">
+              <div class="p-3 border bg-light"> 
+                 <div> Please select issue to read an article</div>
+              </div>
+            </div>
+			<!-- article columns: 3rd column for an article -->
+            <div class="col-6 col-md-4">
+              <div class="p-3 border bg-light"> 
+                 <div> Please select issue to read an article</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!--end of the layout-->
 		<!--footer-->
 		<footer class="mt-5">
             <p class="text-center">Copyright © 2021 Virginia Ciambriello & Margherita Donelli</p>
