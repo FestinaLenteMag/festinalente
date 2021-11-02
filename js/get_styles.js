@@ -3,7 +3,10 @@ this.parentElement.removeChild(this);
 }
 //Change style through buttons
 function changeStyle(selectedStyle) {
-    document.getElementById('ArticleCss').remove();
+    var styleDeclaration = document.getElementById('ArticleCss');
+	if (styleDeclaration.lenght > 0) {
+		styleDeclaration[0].remove();
+	};
     cssFile = document.createElement('link');
     cssFile.type = "text/css"; 
     cssFile.rel = "stylesheet";
