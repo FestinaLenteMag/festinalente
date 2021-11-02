@@ -106,6 +106,86 @@
 			</div>
 		</div>
 		<div id="space"></div>
+		<!-- spazio per metadata viewer e selezione degli articoli-->
+		<div class="container">
+			<div class="row" id="metadata_viewer">
+			<!---tab--->
+				<ul class="nav nav-tabs">
+					<li class="nav-item">
+						<a class="nav-link" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" role="tab" aria-controls="view" aria-selected="false" type="button" >Select Articles</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="highlights-tab" data-bs-toggle="tab" data-bs-target="#highlights" role="tab" aria-controls="view" aria-selected="false" type="button" >Highlights</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="person-tab" data-bs-toggle="tab" data-bs-target="#person" role="tab" aria-controls="view" aria-selected="false" type="button" >Person</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="place-tab" data-bs-toggle="tab" data-bs-target="#place" role="tab" aria-controls="view" aria-selected="false" type="button" >Place</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="organisation-tab" data-bs-toggle="tab" data-bs-target="#organisation" role="tab" aria-controls="view" aria-selected="false" type="button" >Organisation</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="concept-tab" data-bs-toggle="tab" data-bs-target="#concept" role="tab" aria-controls="view" aria-selected="false" type="button" >Concept</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="info-tool" data-bs-toggle="tab" data-bs-target="#tool" role="tab" aria-controls="view" aria-selected="false" type="button" >Tool</a>
+					</li>
+				</ul>
+				<!---Tab panes--->
+				<div class="tab-content">
+					<div class="tab-pane active myBorder myBorder-notop" id="info" role="tabpanel" aria-labelledby="info-tab">
+					<!-- tre spazi allineati per liste articoli -->
+						<div class="row align-items-start">    
+							<div class="col-6 col-md-4">
+								<ul class="minimal" id="list_a"></ul>
+							</div>
+							<div class="col-6 col-md-4">
+								<ul class="minimal" id="list_b"></ul>
+							</div>
+							<div class="col-6 col-md-4">
+								<ul class="minimal" id="list_c"></ul>
+							</div>
+						</div>
+					</div>
+					<!--nuova tab con checkboxes-->
+					<div class="tab-pane active myBorder myBorder-notop" id="highlights" role="tabpanel" aria-labelledby="highlights-tab">
+						<div class="row clearfix mt-4">
+							<div class="col-md-12">
+								<form role="form">
+									<div class="checkbox"><label>
+										<input type="checkbox" id="showperson" class="show">Show person</label></div>
+									<div class="checkbox"><label>
+										<input type="checkbox" id="showplace" class="show">Show place</label></div>
+									<div class="checkbox"><label>
+										<input type="checkbox" id="showconcept" class="show">Show concept</label></div>
+									<div class="checkbox"><label>
+										<input type="checkbox" id="showorganisation" class="show">Show organisation</label></div>
+									<div class="checkbox"><label>
+										<input type="checkbox" id="showtool" class="show">Show tool</label></div>	
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane myBorder myBorder-notop" id="person" role="tabpanel" aria-labelledby="asides-tab">
+						<ul class="minimal"></ul>
+					</div>
+					<div class="tab-pane myBorder myBorder-notop" id="place" role="tabpanel" aria-labelledby="speeches-tab">
+						<ul class="minimal"></ul>
+					</div>
+					<div class="tab-pane myBorder myBorder-notop" id="organisation" role="tabpanel" aria-labelledby="quotes-tab">
+						<ul class="minimal"></ul>
+					</div>
+					<div class="tab-pane myBorder myBorder-notop" id="concept" role="tabpanel" aria-labelledby="quotes-tab">
+						<ul class="minimal"></ul>
+					</div>
+					<div class="tab-pane myBorder myBorder-notop" id="tool" role="tabpanel" aria-labelledby="quotes-tab">
+						<ul class="minimal"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 		<!--actual article triple visualisation layout-->
 		<div class="container" >
