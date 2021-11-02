@@ -6,9 +6,9 @@
 			return r 
 		}
 		
-		var listItemTpl_a = `<li><a href='#' onclick='custom_load_a("$url")'>$label</a></li>`
-		var listItemTpl_b = `<li><a href='#' onclick='custom_load_b("$url")'>$label</a></li>`
-		var listItemTpl_c = `<li><a href='#' onclick='custom_load_c("$url")'>$label</a></li>`
+		var listItemTpl_a = `<li><a class="dropdown-item" href='#' onclick='custom_load_a("$url")'>$label</a></li>`
+		var listItemTpl_b = `<li><a class="dropdown-item" href='#' onclick='custom_load_b("$url")'>$label</a></li>`
+		var listItemTpl_c = `<li><a class="dropdown-item" href='#' onclick='custom_load_c("$url")'>$label</a></li>`
 		
 		$(document).ready(main);
 
