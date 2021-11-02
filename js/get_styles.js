@@ -3,13 +3,19 @@ this.parentElement.removeChild(this);
 }
 //Change style through buttons
 function changeStyle(selectedStyle) {
-    document.getElementById('ArticleCss').remove();
+    var styleDeclaration = document.getElementById('ArticleCss');
+	if (styleDeclaration != null && styleDeclaration.length > 0) {
+		styleDeclaration[0].remove();
+	};
     cssFile = document.createElement('link');
     cssFile.type = "text/css"; 
     cssFile.rel = "stylesheet";
     cssFile.href = selectedStyle;
     cssFile.id= "ArticleCss";
-    document.getElementsByTagName("head")[0].appendChild(cssFile);
+    var renewedStyle = document.getElementsByTagName("head")[0];
+	if (renewedStyle != null) {
+		renewedStyle.appendChild(cssFile);
+	};
 }
 
 //Manage active style button
