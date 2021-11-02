@@ -13,7 +13,7 @@ function changeStyle(selectedStyle) {
     cssFile.href = selectedStyle;
     cssFile.id= "ArticleCss";
     var renewedStyle = document.getElementsByTagName("head")[0];
-	if (renewedStyle != null && renewedStyle.length > 0) {
+	if (renewedStyle != null) {
 		renewedStyle.appendChild(cssFile);
 	};
 }
