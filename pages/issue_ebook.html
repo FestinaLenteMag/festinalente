@@ -149,14 +149,7 @@
 		</div>
 		<!-- tre spazi allineati per liste articoli -->
 		<div class="row align-items-start">    
-			<div class="col-6 col-md-4">
-				<div class="dropdown">
-					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton_1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Select article
-					</button>
-					<ul class="dropdown-menu" class="minimal" id="list_a"></ul>
-				</div>
-			</div>
+			
 			<div class="col-6 col-md-4">
 				<div class="dropdown">
 					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton_1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -177,11 +170,20 @@
 		<!--actual article triple visualisation layout-->
 		<div class="container" >
 			<div class="row align-items-start">    
-			<!-- article columns: 1st column for an article -->
-            <div class="col-6 col-md-4">
-              <div class="p-3 border bg-light" >
-				<div class="overflow-auto" id="article_1"></div>
-            </div>
+				<!-- article columns: 1st column for an article -->
+				<div class="col-6 col-md-4">
+					<!--article selector 1-->
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton_1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Select article
+						</button>
+						<ul class="dropdown-menu" class="minimal" id="list_a"></ul>
+					</div>
+				</div>
+				<!-- space for article 1-->
+				<div class="p-3 border bg-light" >
+					<div class="overflow-auto" id="article_1"></div>
+				</div>
 			</div>
             <!-- article columns: 2nd column for an article -->
             <div class="col-6 col-md-4">
