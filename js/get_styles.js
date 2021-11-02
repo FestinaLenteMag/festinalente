@@ -12,7 +12,10 @@ function changeStyle(selectedStyle) {
     cssFile.rel = "stylesheet";
     cssFile.href = selectedStyle;
     cssFile.id= "ArticleCss";
-    document.getElementsByTagName("head")[0].appendChild(cssFile);
+    var renewedStyle = document.getElementsByTagName("head")[0];
+	if (renewedStyle != null && renewedStyle.length > 0) {
+		renewedStyle.appendChild(cssFile);
+	};
 }
 
 //Manage active style button
