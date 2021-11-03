@@ -512,8 +512,8 @@ a {
 
 @media screen and (max-width: 430px) {
   .tm-media img{
-    max-width: 100%; 
-    heigth: auto;
+    width: 100%; 
+    height: 100%;
   }
   .navbar {
     padding: 0;
