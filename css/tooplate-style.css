@@ -6,7 +6,7 @@ http://www.tooplate.com/view/2103-central
 	
 */
 
-@font-face{font-family:'FontAwesome';src:url('../fonts/fontawesome-webfont.eot?v=4.5.0');src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') 
+
 
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -222,24 +222,12 @@ a {
   color: gray;
 }
 
-/*.fa-newspaper {
+.tm-fa-fa-eye {
   font-size: 30px;
   padding: 0;
   color: black;
 }
 
-.fa-eye {
- font-size: 30px;
- padding: 0;
- color: black;
-}
-*/ 
-.fa-eye{
-content:"\f06e";
-font-size: 30px;
-padding:0;
-color:black;
-}
 .tm-2col-l {
   padding-right: 40px;
 }
