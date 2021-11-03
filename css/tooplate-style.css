@@ -220,7 +220,7 @@ a {
   color: gray;
 }
 
-.fa-newspaper {
+/*.fa-newspaper {
   font-size: 30px;
   padding: 0;
   color: black;
@@ -231,7 +231,13 @@ a {
  padding: 0;
  color: black;
 }
-
+*/ 
+.fa-eye:before{
+content:"\f06e";
+font-size: 30px;
+padding:0;
+color:black;
+}
 .tm-2col-l {
   padding-right: 40px;
 }
