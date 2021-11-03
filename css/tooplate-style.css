@@ -511,7 +511,7 @@ a {
 }
 
 @media screen and (max-width: 430px) {
-  .tm-media {
+  .tm-media img{
     max-width: 100%; 
     heigth: auto;
   }
