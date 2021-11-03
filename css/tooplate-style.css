@@ -512,7 +512,8 @@ a {
 
 @media screen and (max-width: 430px) {
   .tm-media {
-    flex-direction: column;
+    max-width: 100%; 
+    heigth: auto;
   }
   .navbar {
     padding: 0;
