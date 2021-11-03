@@ -220,6 +220,18 @@ a {
   color: gray;
 }
 
+.far fa-newspaper {
+  font-size: 30px;
+  padding: 0;
+  color: black;
+}
+
+.fas fa-eye {
+ font-size: 30px;
+ padding: 0;
+ color: black;
+}
+
 .tm-2col-l {
   padding-right: 40px;
 }
