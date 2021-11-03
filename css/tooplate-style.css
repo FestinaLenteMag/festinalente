@@ -223,7 +223,13 @@ a {
 }
 
 .tm-fa-fa-eye {
-  font-size: 30px;
+  font-size: 100px;
+  padding: 0;
+  color: black;
+}
+
+.tm-fa-fa-newspaper-o  {
+  font-size: 100px;
   padding: 0;
   color: black;
 }
