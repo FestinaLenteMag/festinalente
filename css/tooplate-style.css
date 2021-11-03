@@ -531,3 +531,10 @@ a {
     max-width: 1310px;
   }
 }
+
+.animate {
+		animation-name: bgcolor ;
+		animation-duration: 0.75s ; 
+		animation-iteration-count: 3;
+		animation-fill-mode: backwards;
+		}
