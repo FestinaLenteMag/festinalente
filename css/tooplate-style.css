@@ -538,3 +538,10 @@ a {
 		animation-iteration-count: 3;
 		animation-fill-mode: backwards;
 		}
+		
+		
+.tab-content{
+			min-height:8vmax;
+			max-height: 10vmax;
+  			overflow-y: scroll;
+  		}

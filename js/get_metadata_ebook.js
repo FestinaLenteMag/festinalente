@@ -121,27 +121,27 @@
 		}
 		
 		function filltabs_a(){
-			filltab("#article_1 .mention-person","list-person","#person")
-			filltab("#article_1 .mention-place","list-place","#place")
-			filltab("#article_1 .mention-concept","list-concept","#concept")
-			filltab("#article_1 .mention-organisation","list-organisation","#organisation")
-			filltab("#article_1 .mention-tool","list-tool","#tool")
+			filltab("#article_1 .mention-person","list-person","#person_a")
+			filltab("#article_1 .mention-place","list-place","#place_a")
+			filltab("#article_1 .mention-concept","list-concept","#concept_a")
+			filltab("#article_1 .mention-organisation","list-organisation","#organisation_a")
+			filltab("#article_1 .mention-tool","list-tool","#tool_a")
 		}
 		
 		function filltabs_b(){
-			filltab("#article_2 .mention-person","list-person","#person")
-			filltab("#article_2 .mention-place","list-place","#place")
-			filltab("#article_2 .mention-concept","list-concept","#concept")
-			filltab("#article_2 .mention-organisation","list-organisation","#organisation")
-			filltab("#article_2 .mention-tool","list-tool","#tool")
+			filltab("#article_2 .mention-person","list-person","#person_b")
+			filltab("#article_2 .mention-place","list-place","#place_b")
+			filltab("#article_2 .mention-concept","list-concept","#concept_b")
+			filltab("#article_2 .mention-organisation","list-organisation","#organisation_b")
+			filltab("#article_2 .mention-tool","list-tool","#tool_b")
 		}
 			
 		function filltabs_c(){	
-			filltab("#article_3 .mention-person","list-person","#person")
-			filltab("#article_3 .mention-place","list-place","#place")
-			filltab("#article_3 .mention-concept","list-concept","#concept")
-			filltab("#article_3 .mention-organisation","list-organisation","#organisation")
-			filltab("#article_3 .mention-tool","list-tool","#tool")
+			filltab("#article_3 .mention-person","list-person","#person_c")
+			filltab("#article_3 .mention-place","list-place","#place_c")
+			filltab("#article_3 .mention-concept","list-concept","#concept_c")
+			filltab("#article_3 .mention-organisation","list-organisation","#organisation_c")
+			filltab("#article_3 .mention-tool","list-tool","#tool_c")
 		}
 		
 		function filltab(what,style,where) {
