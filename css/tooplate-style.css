@@ -540,7 +540,7 @@ a {
 		}
 		
 		
-.tab-content {
+.tab-pane {
 			min-height:8vmax;
 			max-height: 10vmax;
   			overflow-y: auto;
