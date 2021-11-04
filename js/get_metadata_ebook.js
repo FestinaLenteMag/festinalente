@@ -162,7 +162,7 @@
 			console.log(t)
 			$('html').animate({ scrollTop: t }, 200);
 			$(id).addClass('animate');
-			console.log(id.innerHTML)
+			console.log(id.class)
 			setTimeout(function(){
 				$(id).removeClass('animate');
 			},5000);
