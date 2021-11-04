@@ -160,7 +160,7 @@
 		function goto_a(id) {
 			var t = $(id).offset().top;
 			console.log(t)
-			$('html').animate({ $(#article_1).scrollTop: t }, 200);
+			$('#article_1').animate({ scrollTop: t }, 200);
 			$(id).addClass('animate');
 			console.log(id.class)
 			setTimeout(function(){
@@ -184,7 +184,7 @@
 		function goto_b(id) {
 			var t = $(id).offset().top;
 			console.log(t)
-			$('html').animate({ $(#article_2).scrollTop: t }, 200);
+			$('#article_2').animate({ scrollTop: t }, 200);
 			$(id).addClass('animate');
 			console.log(id.class)
 			setTimeout(function(){
@@ -208,7 +208,7 @@
 		function goto_c(id) {
 			var t = $(id).offset().top;
 			console.log(t)
-			$('html').animate({ $(#article_3).scrollTop: t }, 200);
+			$('#article_3').animate({ scrollTop: t }, 200);
 			$(id).addClass('animate');
 			console.log(id.class)
 			setTimeout(function(){
