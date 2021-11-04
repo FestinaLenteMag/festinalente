@@ -543,7 +543,8 @@ a {
 .tab-content {
 			min-height:8vmax;
 			max-height: 10vmax;
-  			overflow-y: scroll;
+  			overflow-y: auto;
+			font-size: 14px;
   		}
 		
 #metadata_viewer {
