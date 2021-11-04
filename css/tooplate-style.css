@@ -534,7 +534,7 @@ a {
 
 .animate {
 		animation-name: bgcolor ;
-		animation-duration: 0.75s ; 
+		animation-duration: 2s ; 
 		animation-iteration-count: 3;
 		animation-fill-mode: backwards;
 		}
