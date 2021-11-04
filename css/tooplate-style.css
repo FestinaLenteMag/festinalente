@@ -540,8 +540,12 @@ a {
 		}
 		
 		
-.tab-content{
+.tab-content {
 			min-height:8vmax;
 			max-height: 10vmax;
   			overflow-y: scroll;
   		}
+		
+#metadata_viewer {
+	font-size: 14px;
+}
