@@ -160,7 +160,7 @@
 		function goto(id) {
 			var t = $(id).offset().top;
 			console.log(t)
-			$('html, body').animate({ scrollTop: t }, 200);
+			$('html').animate({ scrollTop: t }, 200);
 			$(id).addClass('animate');
 			setTimeout(function(){
 				$(id).removeClass('animate');
