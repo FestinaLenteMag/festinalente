@@ -549,3 +549,21 @@ a {
 #metadata_viewer {
 	font-size: 14px;
 }
+
+#tab_a {
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+}
+
+#tab_b {
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+}
+
+#tab_c {
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+}
