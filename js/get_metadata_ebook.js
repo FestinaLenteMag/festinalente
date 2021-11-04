@@ -162,7 +162,6 @@
 			console.log(t)
 			$('#article_1').animate({ scrollTop: t }, 200);
 			$(id).addClass('animate');
-			console.log(id.class)
 			setTimeout(function(){
 				$(id).removeClass('animate');
 			},5000);
@@ -186,7 +185,6 @@
 			console.log(t)
 			$('#article_2').animate({ scrollTop: t }, 200);
 			$(id).addClass('animate');
-			console.log(id.class)
 			setTimeout(function(){
 				$(id).removeClass('animate');
 			},5000);
@@ -210,7 +208,6 @@
 			console.log(t)
 			$('#article_3').animate({ scrollTop: t }, 200);
 			$(id).addClass('animate');
-			console.log(id.class)
 			setTimeout(function(){
 				$(id).removeClass('animate');
 			},5000);
