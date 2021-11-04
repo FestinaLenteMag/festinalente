@@ -107,9 +107,9 @@
 		</div>
 		<div id="space"></div>
 		<!-- spazio per metadata viewer e selezione degli articoli-->
-		<div class="container">
-			<div class="row" id="metadata_viewer">
+		<div class="container" id="metadata_viewer">
 			<!---tab-s-->
+			<div class="row">
 				<!-- tab A -->
 				<ul class="nav nav-tabs" role="tablist_a">
 					<li class="nav-item">
@@ -125,21 +125,7 @@
 						<a class="nav-link" id="concept-tab" data-toggle="tab" href="#concept_a" role="tab" aria-controls="view" aria-selected="false" >Concept</a>
 					</li>
 				</ul>
-				<!---Tab panes a --->
-				<div class="tab-content">
-					<div class="tab-pane fade" id="person_a" role="tabpanel" aria-labelledby="asides-tab">
-						<ul class="minimal"></ul>
-					</div>
-					<div class="tab-pane fade" id="place_a" role="tabpanel" aria-labelledby="speeches-tab">
-						<ul class="minimal"></ul>
-					</div>
-					<div class="tab-pane fade" id="organisation_a" role="tabpanel" aria-labelledby="quotes-tab">
-						<ul class="minimal"></ul>
-					</div>
-					<div class="tab-pane fade" id="concept_a" role="tabpanel" aria-labelledby="quotes-tab">
-						<ul class="minimal"></ul>
-					</div>
-				</div>
+				
 				<!-- tab B -->
 				<ul class="nav nav-tabs" role="tablist_b">
 					<li class="nav-item">
@@ -155,21 +141,6 @@
 						<a class="nav-link" id="concept-tab" data-toggle="tab" href="#concept_b" role="tab" aria-controls="view" aria-selected="false" >Concept</a>
 					</li>
 				</ul>
-				<!---Tab panes b --->
-				<div class="tab-content">
-					<div class="tab-pane fade" id="person_b" role="tabpanel" aria-labelledby="asides-tab">
-						<ul class="minimal"></ul>
-					</div>
-					<div class="tab-pane fade" id="place_b" role="tabpanel" aria-labelledby="speeches-tab">
-						<ul class="minimal"></ul>
-					</div>
-					<div class="tab-pane fade" id="organisation_b" role="tabpanel" aria-labelledby="quotes-tab">
-						<ul class="minimal"></ul>
-					</div>
-					<div class="tab-pane fade" id="concept_b" role="tabpanel" aria-labelledby="quotes-tab">
-						<ul class="minimal"></ul>
-					</div>
-				</div>
 				<!-- tab C -->
 				<ul class="nav nav-tabs" role="tablist_c">
 					<li class="nav-item">
@@ -185,6 +156,24 @@
 						<a class="nav-link" id="concept-tab" data-toggle="tab" href="#concept_c" role="tab" aria-controls="view" aria-selected="false" >Concept</a>
 					</li>
 				</ul>
+			</div>	
+				<!--panels-->
+			<div class="row">
+				<!---Tab panes a --->
+				<div class="tab-content">
+					<div class="tab-pane fade" id="person_a" role="tabpanel" aria-labelledby="asides-tab">
+						<ul class="minimal"></ul>
+					</div>
+					<div class="tab-pane fade" id="place_a" role="tabpanel" aria-labelledby="speeches-tab">
+						<ul class="minimal"></ul>
+					</div>
+					<div class="tab-pane fade" id="organisation_a" role="tabpanel" aria-labelledby="quotes-tab">
+						<ul class="minimal"></ul>
+					</div>
+					<div class="tab-pane fade" id="concept_a" role="tabpanel" aria-labelledby="quotes-tab">
+						<ul class="minimal"></ul>
+					</div>
+				</div>
 				<!---Tab panes c --->
 				<div class="tab-content">
 					<div class="tab-pane fade" id="person_c" role="tabpanel" aria-labelledby="asides-tab">
@@ -197,6 +186,21 @@
 						<ul class="minimal"></ul>
 					</div>
 					<div class="tab-pane fade" id="concept_c" role="tabpanel" aria-labelledby="quotes-tab">
+						<ul class="minimal"></ul>
+					</div>
+				</div>
+				<!---Tab panes b --->
+				<div class="tab-content">
+					<div class="tab-pane fade" id="person_b" role="tabpanel" aria-labelledby="asides-tab">
+						<ul class="minimal"></ul>
+					</div>
+					<div class="tab-pane fade" id="place_b" role="tabpanel" aria-labelledby="speeches-tab">
+						<ul class="minimal"></ul>
+					</div>
+					<div class="tab-pane fade" id="organisation_b" role="tabpanel" aria-labelledby="quotes-tab">
+						<ul class="minimal"></ul>
+					</div>
+					<div class="tab-pane fade" id="concept_b" role="tabpanel" aria-labelledby="quotes-tab">
 						<ul class="minimal"></ul>
 					</div>
 				</div>
