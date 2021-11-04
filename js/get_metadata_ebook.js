@@ -158,7 +158,7 @@
 		}
 		
 		function goto(id) {
-			var t = $(id)[0].offset().top;
+			var t = $(id).offset().top;
 			console.log(t)
 			$('body').animate({ scrollTop: t }, 200);
 			$(id).addClass('animate');
