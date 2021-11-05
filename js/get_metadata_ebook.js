@@ -160,7 +160,7 @@
 		function goto_a(id) {
 			var normal_name = $(id).attr("about");
 			console.log(normal_name)
-			var selected_mentions = $("[about = normal_name]")
+			var selected_mentions = $("[about = (normal_name)]")
 			console.log(selected_mentions)
 			$(selected_mentions).addClass('text-organisation');
 			setTimeout(function(){
