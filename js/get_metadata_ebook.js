@@ -160,12 +160,17 @@
 		function goto_a(id) {
 			var normal_name = $(id).attr("about");
 			console.log(normal_name);
-			var name_string = $()(JSON.stringify(normal_name));
-			var selected_mentions = $(attr('[about = normal_name]');
-			console.log(selected_mentions)
-			$(selected_mentions).addClass('text-organisation');
+			
+			var selected_people = $(.mention-person);
+			console.log(selected_people):
+			
+			$.each($(selected_people), function(i, normal_name){
+				if $(selected_people[i]).attr.("[about = 'normal name']");
+					$(selected_people[i]).addClass('text-organisation')
+				else console.log("no matches")}
+			);
 			setTimeout(function(){
-				$(selected_mentions).removeClass('text-organisation');
+				$(selected_people).removeClass('text-organisation');
 			},5000);
 		}
 		
