@@ -161,7 +161,7 @@
 			$('#person-tab_a').click(function(){
 				$('.mention-person').addClass('text-person');
 				setTimeout(function(){
-				$(id).removeClass('text-person');
+				$(.mention-person).removeClass('text-person');
 					},5000)
 			});
 				
