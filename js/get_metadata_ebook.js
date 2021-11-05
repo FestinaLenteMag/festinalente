@@ -159,8 +159,7 @@
 		
 		function goto_a(id) {
 			var normal_name = $(id).attr("about");
-			console.log(normal_name)
-			
+			console.log(normal_name);
 			$(selected_mentions).addClass('text-organisation');
 			setTimeout(function(){
 				$(selected_mentions).removeClass('text-organisation');
