@@ -534,7 +534,7 @@ a {
 
 .animate {
 		animation-name: bgcolor ;
-		animation-duration: 2s ; 
+		animation-duration: 2000 ; 
 		animation-iteration-count: 3;
 		animation-fill-mode: backwards;
 		}
@@ -551,3 +551,18 @@ a {
 	font-size: 14px;
 }
 
+.text-person {
+			background-color:#a6fffe;
+		}
+.text-place {
+			background-color:#fea6ff;
+		}
+.text-concept {
+			background-color:#e3ff50;
+		}
+.text-organisation {
+			background-color:#ff9136;
+		}
+.text-tool {
+			background-color:#fffd5a;
+		}

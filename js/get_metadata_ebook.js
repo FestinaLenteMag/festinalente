@@ -158,13 +158,13 @@
 		}
 		
 		function goto_a(id) {
-			var t = $(id).offset().top;
-			console.log(t)
-			var container_a = $('#article_1')
-			container_a.animate({ scrollTop: t }, 200);
-			$(id).addClass('animate');
+			var normal_name = $(id).attr("about");
+			console.log(normal_name)
+			var selected_mentions = $("[about = normal_name]")
+			console-log(selected_mentions)
+			$(selected_mentions).addClass('text-organisation');
 			setTimeout(function(){
-				$(id).removeClass('animate');
+				$(selected_mentions).removeClass('text-organisation');
 			},5000);
 		}
 		
