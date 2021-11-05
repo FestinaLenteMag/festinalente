@@ -145,8 +145,6 @@
 		}
 		
 		
-		
-		
 		function filltab_a(what,style,where) {
 			var list = `<li class="list $style"><a href="#" onclick="goto_a('$place')">$content</a></li>`
 			var elements = $(what); 

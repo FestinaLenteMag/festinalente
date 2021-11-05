@@ -120,31 +120,31 @@
 		}
 		
 		function filltabs_a(){
-			filltab("#article_1 .mention-person","list-person","#person")
-			filltab("#article_1 .mention-place","list-place","#place")
-			filltab("#article_1 .mention-concept","list-concept","#concept")
-			filltab("#article_1 .mention-organisation","list-organisation","#organisation")
-			filltab("#article_1 .mention-tool","list-tool","#tool")
+			filltab("#article_1 .mention-person","list-person","#person_a")
+			filltab("#article_1 .mention-place","list-place","#place_a")
+			filltab("#article_1 .mention-concept","list-concept","#concept_a")
+			filltab("#article_1 .mention-organisation","list-organisation","#organisation_a")
+			filltab("#article_1 .mention-tool","list-tool","#tool_a")
 		}
 		
 		function filltabs_b(){
-			filltab("#article_2 .mention-person","list-person","#person")
-			filltab("#article_2 .mention-place","list-place","#place")
+			filltab("#article_2 .mention-person","list-person","#person_b")
+			filltab("#article_2 .mention-place","list-place","#place_b")
 			filltab("#article_2 .mention-concept","list-concept","#concept")
-			filltab("#article_2 .mention-organisation","list-organisation","#organisation")
-			filltab("#article_2 .mention-tool","list-tool","#tool")
+			filltab("#article_2 .mention-organisation","list-organisation","#organisation_b")
+			filltab("#article_2 .mention-tool","list-tool","#tool_b")
 		}
 			
 		function filltabs_c(){	
-			filltab("#article_3 .mention-person","list-person","#person")
-			filltab("#article_3 .mention-place","list-place","#place")
-			filltab("#article_3 .mention-concept","list-concept","#concept")
-			filltab("#article_3 .mention-organisation","list-organisation","#organisation")
-			filltab("#article_3 .mention-tool","list-tool","#tool")
+			filltab("#article_3 .mention-person","list-person","#person_c")
+			filltab("#article_3 .mention-place","list-place","#place_c")
+			filltab("#article_3 .mention-concept","list-concept","#concept_c")
+			filltab("#article_3 .mention-organisation","list-organisation","#organisation_c")
+			filltab("#article_3 .mention-tool","list-tool","#tool_c")
 		}
 		
-		function filltab(what,style,where) {
-			var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
+		function filltab_a(what,style,where) {
+			var list = `<li class="list $style"><a href="#" onclick="goto_a('$place')">$content</a></li>`
 			var elements = $(what); 
 			$(where+' ul').empty(); 
 			$.each($(what), function(i, metadataItem){
@@ -153,15 +153,159 @@
 					place: '#'+elements[i].id,
 					content: elements[i].innerHTML
 				}) )
-			})
+			});
+			//highlights
+			$('#person-tab_a').click(function(){
+				$('#article_1 .mention-person').addClass('text-person');
+				setTimeout(function(){
+				$('#article_1 .mention-person').removeClass('text-person');
+					},5000)
+			});
+			
+			//highlights
+			$('#place-tab_a').click(function(){
+				$('#article_1 .mention-place').addClass('text-place');
+				setTimeout(function(){
+				$('#article_1 .mention-place').removeClass('text-place');
+					},5000)
+			});
+				
+			//highlights
+			$('#organisation-tab_a').click(function(){
+				$('#article_1 .mention-organisation').addClass('text-organisation');
+				setTimeout(function(){
+				$('#article_1 .mention-organisation').removeClass('text-organisation');
+					},5000)
+			});
+			
+			//highlights
+			$('#concept-tab_a').click(function(){
+				$('#article_1 .mention-concept').addClass('text-concept');
+				setTimeout(function(){
+				$('#article_1 .mention-concept').removeClass('text-concept');
+					},5000)
+			});
 		}
 		
-		function goto(id) {
-			var t = $(id)[0].offsetTop;
-			$('body').animate({ scrollTop: t }, 200);
+		function goto_a(id) {
+			var t = $(id).offset().top;
+			console.log(t)
+			var container_b = $('#article_1')
+			container_b.animate({ scrollTop: t }, 200);
 			$(id).addClass('animate');
 			setTimeout(function(){
 				$(id).removeClass('animate');
 			},5000);
 		}
+		
+		function filltab_b(what,style,where) {
+			var list = `<li class="list $style"><a href="#" onclick="goto_b('$place')">$content</a></li>`
+			var elements = $(what); 
+			$(where+' ul').empty(); 
+			$.each($(what), function(i, metadataItem){
+				$(where+' ul').append(list.tpl({
+					style:style, 
+					place: '#'+elements[i].id,
+					content: elements[i].innerHTML
+				}) )
+			});
+			//highlights
+			$('#person-tab_b').click(function(){
+				$('#article_2 .mention-person').addClass('text-person');
+				setTimeout(function(){
+				$('#article_2 .mention-person').removeClass('text-person');
+					},5000)
+			});
+			
+			//highlights
+			$('#place-tab_b').click(function(){
+				$('#article_2 .mention-place').addClass('text-place');
+				setTimeout(function(){
+				$('#article_2 .mention-place').removeClass('text-place');
+					},5000)
+			});
+				
+			//highlights
+			$('#organisation-tab_b').click(function(){
+				$('#article_2 .mention-organisation').addClass('text-organisation');
+				setTimeout(function(){
+				$('#article_2 .mention-organisation').removeClass('text-organisation');
+					},5000)
+			});
+			
+			//highlights
+			$('#concept-tab_b').click(function(){
+				$('#article_2 .mention-concept').addClass('text-concept');
+				setTimeout(function(){
+				$('#article_2 .mention-concept').removeClass('text-concept');
+					},5000)
+			});
+		}
+		
+		function goto_b(id) {
+			var t = $(id).offset().top;
+			console.log(t)
+			var container_b = $('#article_2')
+			container_b.animate({ scrollTop: t }, 200);
+			$(id).addClass('animate');
+			setTimeout(function(){
+				$(id).removeClass('animate');
+			},5000);
+		}
+		
+		function filltab_c(what,style,where) {
+			var list = `<li class="list $style"><a href="#" onclick="goto_c('$place')">$content</a></li>`
+			var elements = $(what); 
+			$(where+' ul').empty(); 
+			$.each($(what), function(i, metadataItem){
+				$(where+' ul').append(list.tpl({
+					style:style, 
+					place: '#'+elements[i].id,
+					content: elements[i].innerHTML
+				}) )
+			});
+			//highlights
+			$('#person-tab_c').click(function(){
+				$('#article_3 .mention-person').addClass('text-person');
+				setTimeout(function(){
+				$('#article_3 .mention-person').removeClass('text-person');
+					},5000)
+			});
+			
+			//highlights
+			$('#place-tab_c').click(function(){
+				$('#article_3 .mention-place').addClass('text-place');
+				setTimeout(function(){
+				$('#article_3 .mention-place').removeClass('text-place');
+					},5000)
+			});
+				
+			//highlights
+			$('#organisation-tab_c').click(function(){
+				$('#article_3 .mention-organisation').addClass('text-organisation');
+				setTimeout(function(){
+				$('#article_3 .mention-organisation').removeClass('text-organisation');
+					},5000)
+			});
+			
+			//highlights
+			$('#concept-tab_c').click(function(){
+				$('#article_3 .mention-concept').addClass('text-concept');
+				setTimeout(function(){
+				$('#article_3 .mention-concept').removeClass('text-concept');
+					},5000)
+			});
+		}
+		
+		function goto_c(id) {
+			var t = $(id).offset().top;
+			console.log(t)
+			var container_c = $('#article_3')
+			container_c.animate({ scrollTop: t }, 200);
+			$(id).addClass('animate');
+			setTimeout(function(){
+				$(id).removeClass('animate');
+			},5000);
+		}
+		
 		
