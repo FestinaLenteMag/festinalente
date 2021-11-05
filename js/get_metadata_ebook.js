@@ -158,14 +158,37 @@
 					content: elements[i].innerHTML
 				}) )
 			});
+			//highlights
 			$('#person-tab_a').click(function(){
-				$('.mention-person').addClass('text-person');
+				$('#article_1 .mention-person').addClass('text-person');
 				setTimeout(function(){
-				$('.mention-person').removeClass('text-person');
+				$('#article_1 .mention-person').removeClass('text-person');
+					},5000)
+			});
+			
+			//highlights
+			$('#place-tab_a').click(function(){
+				$('#article_1 .mention-place').addClass('text-place');
+				setTimeout(function(){
+				$('#article_1 .mention-place').removeClass('text-place');
 					},5000)
 			});
 				
+			//highlights
+			$('#organisation-tab_a').click(function(){
+				$('#article_1 .mention-organisation').addClass('text-organisation');
+				setTimeout(function(){
+				$('#article_1 .mention-organisation').removeClass('text-organisation');
+					},5000)
+			});
 			
+			//highlights
+			$('#concept-tab_a').click(function(){
+				$('#article_1 .mention-concept').addClass('text-concept');
+				setTimeout(function(){
+				$('#article_1 .mention-concept').removeClass('text-concept');
+					},5000)
+			});
 		}
 		
 		function goto_a(id) {
@@ -189,7 +212,38 @@
 					place: '#'+elements[i].id,
 					content: elements[i].innerHTML
 				}) )
-			})
+			});
+			//highlights
+			$('#person-tab_b').click(function(){
+				$('#article_2 .mention-person').addClass('text-person');
+				setTimeout(function(){
+				$('#article_2 .mention-person').removeClass('text-person');
+					},5000)
+			});
+			
+			//highlights
+			$('#place-tab_b').click(function(){
+				$('#article_2 .mention-place').addClass('text-place');
+				setTimeout(function(){
+				$('#article_2 .mention-place').removeClass('text-place');
+					},5000)
+			});
+				
+			//highlights
+			$('#organisation-tab_b').click(function(){
+				$('#article_2 .mention-organisation').addClass('text-organisation');
+				setTimeout(function(){
+				$('#article_2 .mention-organisation').removeClass('text-organisation');
+					},5000)
+			});
+			
+			//highlights
+			$('#concept-tab_b').click(function(){
+				$('#article_2 .mention-concept').addClass('text-concept');
+				setTimeout(function(){
+				$('#article_2 .mention-concept').removeClass('text-concept');
+					},5000)
+			});
 		}
 		
 		function goto_b(id) {
@@ -213,7 +267,38 @@
 					place: '#'+elements[i].id,
 					content: elements[i].innerHTML
 				}) )
-			})
+			});
+			//highlights
+			$('#person-tab_c').click(function(){
+				$('#article_3 .mention-person').addClass('text-person');
+				setTimeout(function(){
+				$('#article_3 .mention-person').removeClass('text-person');
+					},5000)
+			});
+			
+			//highlights
+			$('#place-tab_c').click(function(){
+				$('#article_3 .mention-place').addClass('text-place');
+				setTimeout(function(){
+				$('#article_3 .mention-place').removeClass('text-place');
+					},5000)
+			});
+				
+			//highlights
+			$('#organisation-tab_c').click(function(){
+				$('#article_3 .mention-organisation').addClass('text-organisation');
+				setTimeout(function(){
+				$('#article_3 .mention-organisation').removeClass('text-organisation');
+					},5000)
+			});
+			
+			//highlights
+			$('#concept-tab_c').click(function(){
+				$('#article_3 .mention-concept').addClass('text-concept');
+				setTimeout(function(){
+				$('#article_3 .mention-concept').removeClass('text-concept');
+					},5000)
+			});
 		}
 		
 		function goto_c(id) {
