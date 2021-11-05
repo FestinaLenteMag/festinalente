@@ -144,6 +144,9 @@
 			filltab_c("#article_3 .mention-tool","list-tool","#tool_c")
 		}
 		
+		
+		
+		
 		function filltab_a(what,style,where) {
 			var list = `<li class="list $style"><a href="#" onclick="goto_a('$place')">$content</a></li>`
 			var elements = $(what); 
@@ -154,23 +157,25 @@
 					place: '#'+elements[i].id,
 					content: elements[i].innerHTML
 				}) )
-			})
+			});
+			$('#person-tab_a').click(function(){
+				$('.mention-person').addClass('text-person');
+				setTimeout(function(){
+				$(id).removeClass('text-person');
+					},5000)
+			});
+				
+			
 		}
 		
 		function goto_a(id) {
-			var normal_name = $(id).attr("about");
-			console.log(normal_name);
-			
-			var selected_people = $(.mention-person);
-			console.log(selected_people):
-			
-			$.each($(selected_people), function(i, normal_name){
-				if $(selected_people[i]).attr.("[about = 'normal name']");
-					$(selected_people[i]).addClass('text-organisation')
-				else console.log("no matches")}
-			);
+			var t = $(id).offset().top;
+			console.log(t)
+			var container_b = $('#article_1')
+			container_b.animate({ scrollTop: t }, 200);
+			$(id).addClass('animate');
 			setTimeout(function(){
-				$(selected_people).removeClass('text-organisation');
+				$(id).removeClass('animate');
 			},5000);
 		}
 		
