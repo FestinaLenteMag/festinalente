@@ -160,6 +160,9 @@
 		function goto_a(id) {
 			var normal_name = $(id).attr("about");
 			console.log(normal_name);
+			var name_string = $()(JSON.stringify(normal_name));
+			var selected_mentions = $(attr('[about = normal_name]');
+			console.log(selected_mentions)
 			$(selected_mentions).addClass('text-organisation');
 			setTimeout(function(){
 				$(selected_mentions).removeClass('text-organisation');
