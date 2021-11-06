@@ -107,6 +107,17 @@
 		</div>
 		<div id="space"></div>
 		<!-- spazio per metadata viewer e selezione degli articoli-->
+		<div class="container">
+			<div class="row">
+				<p> Metadata viewer 
+				<!-- close button metata_panels -->
+						<div class="checkbox"><label>
+							<input type="checkbox" id="see_mention" class="show">See Mentions List</label></div>
+						<div class="checkbox"><label>
+							<input type="checkbox" id="clear_highlights" class="show"> Clear highlights</label></div>
+				</p>
+			</div>
+		</div>
 		<div class="container" id="metadata_viewer">
 			<!---tab-s-->
 			<div class="row">
@@ -233,7 +244,7 @@
 						<ul class="dropdown-menu" class="minimal" id="list_a"></ul>
 					</div>
 					<!-- close button 1-->
-					<button type="button" class="close" aria-label="Close" data-toggle="collapse" data-target="#article_1">
+					<button type="button" class="close" aria-label="Close" id="close_1">
 						<span aria-hidden="true">&times;</span>
 					</button>
 					<!-- space for article 1-->
@@ -252,7 +263,7 @@
 						<ul class="dropdown-menu" class="minimal" id="list_b"></ul>
 					</div>
 					<!-- close button 2-->
-					<button type="button" class="close" aria-label="Close" data-toggle="collapse" data-target="#article_2">
+					<button type="button" class="close" aria-label="Close" id="close_2">
 						<span aria-hidden="true">&times;</span>
 					</button>
 					<!-- space for article 2-->
@@ -270,7 +281,7 @@
 						<ul class="dropdown-menu" class="minimal" id="list_c"></ul>
 					</div>
 					<!-- close button 3-->
-					<button type="button" class="close" aria-label="Close" data-toggle="collapse" data-target="#article_3">
+					<button type="button" class="close" aria-label="Close" id="close_3">
 						<span aria-hidden="true">&times;</span>
 					</button>
 					<!-- space for article 3-->
