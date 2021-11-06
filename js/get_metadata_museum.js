@@ -189,7 +189,7 @@
 		
 		function goto_a(id) {
 			 $([document.documentElement, document.body]).animate({
-              scrollTop: $("#article_1").offset().top
+              scrollTop: $(id).offset().top
           }, 100);
 		}
 		
