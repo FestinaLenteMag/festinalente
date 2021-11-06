@@ -602,3 +602,11 @@ a {
 #organisation-tab_c {
 			background-color:#ff9136;
 		}
+#see_mention {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+#clear_highlights {
+	padding-left: 4px;
+	padding-right: 4px;
+}
