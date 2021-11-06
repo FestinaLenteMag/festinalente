@@ -106,6 +106,18 @@
 		</div>
 		<div id="space"></div>
 		<!-- spazio per metadata viewer e selezione degli articoli-->
+		<div class="container">
+			<div> Metadata viewer 
+				<!-- close button metata_panels -->
+				<form role="form">
+					<div class="checkbox"><label>
+						<input type="checkbox" id="see_mention" class="show">See Mentions</label></div>
+					<div class="checkbox"><label>
+						<input type="checkbox" id="clear_highlights" class="show"> Clear highlights</label></div>
+					<div class="checkbox"><label>
+				</div>
+			</div>
+		</div>
 		<div class="container" id="metadata_viewer">
 			<!---tab-s-->
 			<div class="row">
@@ -159,10 +171,6 @@
 							<a class="nav-link" id="concept-tab_c" data-toggle="tab" href="#concept_c" role="tab" aria-controls="view" aria-selected="false" >Concept</a>
 						</li>
 					</ul>
-					<!-- close button metata_panels -->
-					<button type="button" class="close" aria-label="Close" data-toggle="collapse" data-target="#metadata_panels">
-						View
-					</button>
 				</div>	
 			</div>
 		</div>

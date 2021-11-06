@@ -32,40 +32,21 @@
 				}
 			});
 			
-			$('#showperson').click(function() {
-				console.log("show person");
+			$('#see_mention').click(function() {
 				if (this.checked) 
-					$('.mention-person').addClass('text-person')
+					$('#metadata_panels').show()
 				else
-					$('.mention-person').removeClass('text-person')
-			})
-			$('#showplace').click(function() {
-				console.log("show place");
-				console.log(this.checked);
+					$('#metadata_panels').hide()
+			});
+			
+			$('#clear_highlights').click(function() {
 				if (this.checked) 
-					$('.mention-place').addClass('text-place')
-				else
-					$('.mention-place').removeClass('text-place')
-			})
-			$('#showconcept').change(function() {
-				console.log("show concept");
-				if (this.checked) 
-					$('.mention-concept').addClass('text-concept')
-				else
-					$('.mention-concept').removeClass('text-concept')
-			})
-			$('#showorganisation').change(function() {
-				if (this.checked) 
-					$('.mention-organisation').addClass('text-organisation')
-				else
-					$('.mention-organisation').removeClass('text-organisation')
-			})
-			$('#showtool').change(function() {
-				if (this.checked) 
-					$('.mention-tool').addClass('text-tool')
-				else
-					$('.mention-tool').removeClass('text-tool')
-			})
+					$('body').removeClass('text-person')
+					$('body').removeClass('text-place')
+					$('body').removeClass('text-organisation')
+					$('body').removeClass('text-concept')
+			});
+			
 		}
 		
 		//custom_load per spazio articolo 1
