@@ -190,7 +190,11 @@
 		function goto_a(id) {
 			 $([document.documentElement, document.body]).animate({
               scrollTop: $(id).offset().top
-          }, 100);
+				}, 100);
+			$(id).addClass('animate');
+				setTimeout(function(){
+					$(id).removeClass('animate');
+				},5000);
 		}
 		
 		function filltab_b(what,style,where) {
