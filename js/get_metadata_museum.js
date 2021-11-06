@@ -47,6 +47,16 @@
 					$('.mention-concept').removeClass('text-concept')
 			});
 			
+			$('#close_1').click(function() {
+				$('#article_1').empty()
+			});
+			$('#close_2').click(function() {
+				$('#article_2').empty()
+			});
+			$('#close_3').click(function() {
+				$('#article_3').empty()
+			});
+			
 		}
 		
 		//custom_load per spazio articolo 1
@@ -264,5 +274,6 @@
 				$(id).removeClass('animate');
 			},5000);
 		}
+		
 		
 		
