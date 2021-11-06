@@ -41,10 +41,10 @@
 			
 			$('#clear_highlights').click(function() {
 				if (this.checked) 
-					$('body').removeClass('text-person')
-					$('body').removeClass('text-place')
-					$('body').removeClass('text-organisation')
-					$('body').removeClass('text-concept')
+					$('.mention-person').removeClass('text-person')
+					$('.mention-place').removeClass('text-place')
+					$('.mention-organisation').removeClass('text-organisation')
+					$('.mention-concept').removeClass('text-concept')
 			});
 			
 		}
