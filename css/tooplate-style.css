@@ -554,15 +554,51 @@ a {
 .text-person {
 			background-color:#a6fffe;
 		}
+#person-tab_a {
+			background-color:#a6fffe;
+		}
+#person-tab_b {
+			background-color:#a6fffe;
+		}
+#person-tab_c {
+			background-color:#a6fffe;
+		}
+
 .text-place {
 			background-color:#fea6ff;
 		}
+#place-tab_a {
+			background-color:#fea6ff;
+		}
+#place-tab_b {
+			background-color:#fea6ff;
+		}
+#place-tab_c {
+			background-color:#fea6ff;
+		}
+				
 .text-concept {
 			background-color:#e3ff50;
 		}
+#concept-tab_a {
+			background-color:#e3ff50;
+		}
+#concept-tab_b {
+			background-color:#e3ff50;
+		}
+#concept-tab_c {
+			background-color:#e3ff50;
+		}
+
 .text-organisation {
 			background-color:#ff9136;
 		}
-.text-tool {
-			background-color:#fffd5a;
+#organisation-tab_a {
+			background-color:#ff9136;
+		}
+#organisation-tab_b {
+			background-color:#ff9136;
+		}
+#organisation-tab_c {
+			background-color:#ff9136;
 		}
