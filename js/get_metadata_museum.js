@@ -188,14 +188,9 @@
 		}
 		
 		function goto_a(id) {
-			var t = $(id).offset().top;
-			console.log(t)
-			var container_b = $('#article_1')
-			container_b.animate({ scrollTop: t }, 200);
-			$(id).addClass('animate');
-			setTimeout(function(){
-				$(id).removeClass('animate');
-			},5000);
+			 $([document.documentElement, document.body]).animate({
+              scrollTop: $("#article_1").offset().top
+          }, 100);
 		}
 		
 		function filltab_b(what,style,where) {
