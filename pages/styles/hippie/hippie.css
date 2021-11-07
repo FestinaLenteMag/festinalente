@@ -1,7 +1,7 @@
 
 @font-face{
-	font-family: "Mainsain";
-    src: url("Fonts/mainsain-font 2/Mainsan.ttf");
+	font-family: "Hippie Movement";
+    src: url("fonts/hippie_movement/Hippie Movement.otf");
     }
 	
 @font-face{font-family: "bookends";
@@ -9,7 +9,7 @@
 	}
   
 
-.article_container{font-family:"Mainsain";
+.article_container{font-family:"Hippie Movement";
 	font-weight: bold;
 	font-size:40pt;
 	color:#DE7709;
@@ -34,35 +34,35 @@
 	text-align:left;
 }
 
-h2{font-family:"Mainsain";
+h2{font-family:"Hippie Movement";
 font-weight: bold; 
 color:#DE7709;
 }
 
-h3{font-family:"Mainsain";
+h3{font-family:"Hippie Movement";
 color:#DE7709;
 }
 
-.title{font-family:"Mainsain";
+.title{font-family:"Hippie Movement";
 font-weight:bold;
 font-size:40pt;
 text-align:left;
 color:#DE7709;
 }
 .other_letters{font-size:13.5pt;}
-.subtitle{font-family:"Mainsain";
+.subtitle{font-family:"Hippie Movement";
 color:black;
 font-size:30pt;
 text-align:left;}
 
-.byline{font-family:"Mainsain";
+.byline{font-family:"Hippie Movement";
 color:black;
 font-weight: normal;
 font-size:16pt;
 text-align:left;
 margin-top: 50px;
 margin-bottom: 50px;}
-.publication_date{font-family:"Mainsain";
+.publication_date{font-family:"Hippie Movement";
 color:white;
 font-weight: normal;
 font-size:16pt;
