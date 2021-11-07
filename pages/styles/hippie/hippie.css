@@ -4,8 +4,8 @@
     src: url("fonts/hippie_movement/Hippie Movement.otf");
     }
 	
-@font-face{font-family: "Shalma";
-    src: url("fonts/shalma-font/Shalma-Rp0Pe.otf");
+@font-face{font-family: "OilBats"
+    src: url("fonts/oilbats/OilBats.ttf");
 	}
   
 
@@ -27,7 +27,7 @@
 	width: 100%;
 	margin: auto;}
 
-.plaintext{font-family:"Shalma";
+.plaintext{font-family:"OilBats";
 	font-weight: normal;
 	font-size:18pt;
 	color:black;
@@ -71,7 +71,7 @@ margin-top: 50px;
 margin-bottom: 50px;
 text-align:left;}
 
-.introduction{font-family:"Shalma";
+.introduction{font-family:"OilBats";
 font-weight: normal;
 font-size:14pt;
 color:black;
@@ -83,11 +83,11 @@ text-align:left;}
 
 
 .editor_note{ 
-font-family:"Shalma";
+font-family:"OilBats";
 text-align:left;}
-.bio{font-family:"Shalma";
+.bio{font-family:"OilBats";
 text-align:left; }
-.copy{font-family:"Shalma";
+.copy{font-family:"OilBats";
 text-align:left;
 font-style:italic;}
 
@@ -98,14 +98,14 @@ img {
   width: 100%;
 }
 
-figcaption{font-family:"Shalma";
+figcaption{font-family:"OilBats";
 font-style: normal;
 padding:10px;
 text-align:left;}
 .credit{font-style:italic;
 }
 
-table{font-family:"Shalma";
+table{font-family:"OilBats";
 font-weight: normal;
 font-size: 10.5pt;
 border-collapse: collapse;
@@ -125,7 +125,7 @@ table td {
 background: #D17719;
 }
 
-.table-caption{font-family:"Shalma";
+.table-caption{font-family:"OilBats";
 }
 
 th, td {
