@@ -41,16 +41,14 @@
 
 .plaintext{font-family:"Titillium Web";
 	src: url("fonts/titillium-web/TitilliumWeb-Regular.ttf");
-	font-weight:normal;
 	font-size:18pt;
 	color:#000000;
 	text-align:left;
 	background-color:#C997C3;
 }
 
-h2{font-family:"Tiillium Web";
-font-weight: bold; 
-color:#000000;
+h2{font-family:"Titillium Web";
+src: url("fonts/titillium-web/TitilliumWeb-SemiBold.ttf");
 }
 
 h3{color:#000000;}
@@ -60,25 +58,30 @@ src: url("fonts/titillium-web/TitilliumWeb-Bold.ttf");
 font-size:40pt;
 text-align:left;
 color:#000000;
-letter-spacing: 2pt;}
+letter-spacing: 2pt;
+}
 .other_letters{font-size:13.5pt;}
 .subtitle{font-family:"Titillium Web";
+src: url("fonts/titillium-web/TitilliumWeb-SemiBold.ttf");
 font-size:30pt;
-text-align:left;}
+text-align:left;
+}
 
 .byline{font-family:"Titillium Web";
 src: url("fonts/titillium-web/TitilliumWeb-Regular.ttf");
 font-size:16pt;
 text-align:left;
 margin-top: 50px;
-margin-bottom: 50px;}
+margin-bottom: 50px;
+}
 .publication_date{font-family:"Titillium Web";
 src: url("fonts/titillium-web/TitilliumWeb-Italic.ttf");
 font-size:16pt;
 text-align:center;
 margin-top: 50px;
 margin-bottom: 50px;
-text-align:left;}
+text-align:left;
+}
 
 .introduction{font-family:"Titillium Web";
 src: url("fonts/titillium-web/TitilliumWeb-Regular.ttf");
@@ -88,7 +91,8 @@ padding-top:10pt;
 padding-bottom:10pt;
 padding-right:10pt;
 padding-left:10pt;
-text-align:justify;}
+text-align:justify;
+}
 
 
 .editor_note{font-family:"Titillium Web";
