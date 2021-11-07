@@ -12,7 +12,7 @@ function changeStyle(selectedStyle) {
     cssFile.rel = "stylesheet";
     cssFile.href = selectedStyle;
     cssFile.id= "ArticleCss";
-    var renewedStyle = document.getElementsByTagName("head")[0];
+    var renewedStyle = document.getElementsByTagName("style")[0];
 	if (renewedStyle != null) {
 		renewedStyle.appendChild(cssFile);
 	};
