@@ -1,11 +1,11 @@
 
 @font-face{
-	font-family: "Mainsain Font";
-    src: url("hippie/Fonts/mainsain-font 2/Mainsan.ttf");
+	font-family: "mainsain-font 2";
+    src: url("hippie\Fonts\mainsain-font 2\Mainsan.otf");
     }
 	
-@font-face{font-family: "Bookends";
-    src: url("hippie/Fonts/bookends/Bookends-BookendsWithAccents.otf");
+@font-face{font-family: "Bookends-BookendsWithAccents";
+    src: url("hippie\Fonts\bookends\Bookends-BookendsWithAccents.otf");
 	}
   
 
