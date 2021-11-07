@@ -21,7 +21,7 @@
   
 
 .article_container{font-family:"Titillium Web";
-	font-weight:normal;
+	font-weight:300;
 	color:#000000;
 	text-align:left;
 	padding-top:20px;
@@ -40,7 +40,7 @@
 	margin: auto;}
 
 .plaintext{font-family:"Titillium Web";
-	font-weight:normal;
+	font-weight:300;
 	font-size:18pt;
 	color:#000000;
 	text-align:left;
@@ -56,13 +56,14 @@ h3{color:#000000;
 }
 
 .title{font-family:"Titillium Web";
-font-weight:bold
+font-weight:600;
 font-size:40pt;
 text-align:left;
 color:#000000;
 letter-spacing: 2pt;
 }
-.other_letters{font-size:13.5pt;}
+.other_letters{font-size:13.5pt;
+font-weight:300;}
 .subtitle{font-family:"Titillium Web";
 font-weight:600;
 font-size:30pt;
@@ -117,14 +118,14 @@ img {
   width: 100%;
 }
 figcaption{font-family:"Titillium Web";
-font-weight:normal;
+font-weight:300;
 padding:10px;
 text-align:left;}
 .credit{font-style:italic;
 }
 
 table{font-family:"Titillium Web";
-font-weight:normal;
+font-weight:300;
 font-size: 10.5pt;
 border-collapse: collapse;
 text-align: center;
@@ -144,7 +145,7 @@ background: #505D8C;
 }
 
 .table-caption{font-family:"Titillium Web";
-font-weight:normal;
+font-weight:300;
 }
 
 th, td {
