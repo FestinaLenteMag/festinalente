@@ -32,7 +32,7 @@
 				}
 			});
 			
-			$('#see_mention').click(function() {
+			$('#see_mention').click(function hide_meta() {
 				if (this.checked) 
 					$('#metadata_panels').hide()
 				else
@@ -150,6 +150,7 @@
 				$('#article_1 .mention-person').addClass('text-person')
 				$("#clear_highlights").prop("checked", false);
 				$("#see_mention").prop("checked", false);
+				$("#see_mention").hide_meta();
 			});
 			
 			//highlights
@@ -157,6 +158,7 @@
 				$('#article_1 .mention-place').addClass('text-place')
 				$("#clear_highlights").prop("checked", false);
 				$("#see_mention").prop("checked", false);
+				$("#see_mention").hide_meta();
 			});
 				
 			//highlights
@@ -164,6 +166,7 @@
 				$('#article_1 .mention-organisation').addClass('text-organisation')
 				$("#clear_highlights").prop("checked", false);
 				$("#see_mention").prop("checked", false);
+				$("#see_mention").hide_meta();
 			});
 			
 			//highlights
@@ -171,6 +174,7 @@
 				$('#article_1 .mention-concept').addClass('text-concept')
 				$("#clear_highlights").prop("checked", false);
 				$("#see_mention").prop("checked", false);
+				$("#see_mention").hide_meta();
 
 			});
 		}
@@ -201,6 +205,7 @@
 				$('#article_2 .mention-person').addClass('text-person')
 				$("#clear_highlights").prop("checked", false);
 				$("#see_mention").prop("checked", false);
+				$("#see_mention").hide_meta();
 			});
 			
 			//highlights
@@ -208,6 +213,7 @@
 				$('#article_2 .mention-place').addClass('text-place')
 				$("#clear_highlights").prop("checked", false);
 				$("#see_mention").prop("checked", false);
+				$("#see_mention").hide_meta();
 			});
 				
 			//highlights
@@ -215,6 +221,7 @@
 				$('#article_2 .mention-organisation').addClass('text-organisation')
 				$("#clear_highlights").prop("checked", false);
 				$("#see_mention").prop("checked", false);
+				$("#see_mention").hide_meta();
 			});
 			
 			//highlights
@@ -222,6 +229,7 @@
 				$('#article_2 .mention-concept').addClass('text-concept')
 				$("#clear_highlights").prop("checked", false);
 				$("#see_mention").prop("checked", false);
+				$("#see_mention").hide_meta();
 			});
 		}
 		
@@ -252,6 +260,7 @@
 				$('#article_3 .mention-person').addClass('text-person')
 				$("#clear_highlights").prop("checked", false);
 				$("#see_mention").prop("checked", false);
+				$("#see_mention").hide_meta();
 			});
 			
 			//highlights
@@ -259,6 +268,7 @@
 				$('#article_3 .mention-place').addClass('text-place')
 				$("#clear_highlights").prop("checked", false);
 				$("#see_mention").prop("checked", false);
+				$("#see_mention").hide_meta();
 			});
 				
 			//highlights
@@ -266,6 +276,7 @@
 				$('#article_3 .mention-organisation').addClass('text-organisation')
 				$("#clear_highlights").prop("checked", false);
 				$("#see_mention").prop("checked", false);
+				$("#see_mention").hide_meta();
 			});
 			
 			//highlights
@@ -273,6 +284,7 @@
 				$('#article_3 .mention-concept').addClass('text-concept')
 				$("#clear_highlights").prop("checked", false);
 				$("#see_mention").prop("checked", false);
+				$("#see_mention").hide_meta();
 			});
 		}
 		
