@@ -150,24 +150,28 @@
 			$('#person-tab_a').click(function(){
 				$('#article_1 .mention-person').addClass('text-person');
 				$("#clear_highlights").prop("checked", false);
+				$("#see_mention").prop("checked", false);
 			});
 			
 			//highlights
 			$('#place-tab_a').click(function(){
 				$('#article_1 .mention-place').addClass('text-place');
 				$("#clear_highlights").prop("checked", false);
+				$("#see_mention").prop("checked", false);
 			});
 				
 			//highlights
 			$('#organisation-tab_a').click(function(){
 				$('#article_1 .mention-organisation').addClass('text-organisation');
 				$("#clear_highlights").prop("checked", false);
+				$("#see_mention").prop("checked", false);
 			});
 			
 			//highlights
 			$('#concept-tab_a').click(function(){
 				$('#article_1 .mention-concept').addClass('text-concept');
 				$("#clear_highlights").prop("checked", false);
+				$("#see_mention").prop("checked", false);
 			});
 		}
 		
@@ -197,24 +201,28 @@
 			$('#person-tab_b').click(function(){
 				$('#article_2 .mention-person').addClass('text-person');
 				$("#clear_highlights").prop("checked", false);
+				$("#see_mention").prop("checked", false);
 			});
 			
 			//highlights
 			$('#place-tab_b').click(function(){
 				$('#article_2 .mention-place').addClass('text-place');
 				$("#clear_highlights").prop("checked", false);
+				$("#see_mention").prop("checked", false);
 			});
 				
 			//highlights
 			$('#organisation-tab_b').click(function(){
 				$('#article_2 .mention-organisation').addClass('text-organisation');
 				$("#clear_highlights").prop("checked", false);
+				$("#see_mention").prop("checked", false);
 			});
 			
 			//highlights
 			$('#concept-tab_b').click(function(){
 				$('#article_2 .mention-concept').addClass('text-concept');
 				$("#clear_highlights").prop("checked", false);
+				$("#see_mention").prop("checked", false);
 			});
 		}
 		
@@ -244,24 +252,28 @@
 			$('#person-tab_c').click(function(){
 				$('#article_3 .mention-person').addClass('text-person');
 				$("#clear_highlights").prop("checked", false);
+				$("#see_mention").prop("checked", false);
 			});
 			
 			//highlights
 			$('#place-tab_c').click(function(){
 				$('#article_3 .mention-place').addClass('text-place');
 				$("#clear_highlights").prop("checked", false);
+				$("#see_mention").prop("checked", false);
 			});
 				
 			//highlights
 			$('#organisation-tab_c').click(function(){
 				$('#article_3 .mention-organisation').addClass('text-organisation');
 				$("#clear_highlights").prop("checked", false);
+				$("#see_mention").prop("checked", false);
 			});
 			
 			//highlights
 			$('#concept-tab_c').click(function(){
 				$('#article_3 .mention-concept').addClass('text-concept');
 				$("#clear_highlights").prop("checked", false);
+				$("#see_mention").prop("checked", false);
 			});
 		}
 		
