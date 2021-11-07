@@ -1,22 +1,22 @@
 
 @font-face{
 	font-family: "Titillium Web";
-    src: url("fonts/TitilliumWeb-Bold.ttf");
+    src: url("fonts/titillium-web/TitilliumWeb-Bold.ttf");
 }
 
 @font-face{	
 	font-family: "Titillium Web";
-    src: url("fonts/TitilliumWeb-Regular.ttf");
+    src: url("fonts/titillium-web/TitilliumWeb-Regular.ttf");
 }
 
 @font-face{	
 	font-family: "Titillium Web";
-    src: url("fonts/TitilliumWeb-Italic.ttf");
+    src: url("fonts/titillium-web/TitilliumWeb-Italic.ttf");
 }
 
 @font-face{	
 	font-family: "Titillium Web";
-    src: url("fonts/TitilliumWeb-SemiBold.ttf");	
+    src: url("fonts/titillium-web/TitilliumWeb-SemiBold.ttf");	
 	}
   
 
