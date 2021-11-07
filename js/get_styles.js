@@ -25,15 +25,8 @@ $(document).ready(function(){
         $('#btn-style>button.btn-active').removeClass("btn-active");
         this.classList.add("btn-active");
   });
-    $("#aldine").click(function(){
-        $('#btn-style>button.btn-active').removeClass("btn-active");
-        this.classList.add("btn-active");
-  });
+  
     $("#hiphop").click(function(){
-        $('#btn-style>button.btn-active').removeClass("btn-active");
-        this.classList.add("btn-active");
-  });
-    $("#cubism").click(function(){
         $('#btn-style>button.btn-active').removeClass("btn-active");
         this.classList.add("btn-active");
   });
