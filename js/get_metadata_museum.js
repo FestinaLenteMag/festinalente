@@ -34,9 +34,9 @@
 			
 			$('#see_mention').click(function() {
 				if (this.checked) 
-					$('#metadata_panels').show()
-				else
 					$('#metadata_panels').hide()
+				else
+					$('#metadata_panels').show()
 			});
 			
 			$('#clear_highlights').click(function() {
