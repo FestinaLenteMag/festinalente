@@ -4,7 +4,7 @@ this.parentElement.removeChild(this);
 //Change style through buttons
 function changeStyle(selectedStyle) {
     var styleDeclaration = document.getElementById('ArticleCss');
-	if (styleDeclaration != null) {
+	if (styleDeclaration.length > 0) {
 		styleDeclaration[0].remove();
 	};
     cssFile = document.createElement('link');
