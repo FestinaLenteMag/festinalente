@@ -1,15 +1,15 @@
 
 @font-face{
-	font-family: "mainsain-font 2";
-    src: url("hippie\Fonts\mainsain-font 2\Mainsan.otf");
+	font-family: "Mainsain";
+    src: url("Fonts/mainsain-font 2/Mainsan.ttf");
     }
 	
-@font-face{font-family: "Bookends-BookendsWithAccents";
-    src: url("hippie\Fonts\bookends\Bookends-BookendsWithAccents.otf");
+@font-face{font-family: "bookends";
+    src: url("Fonts/bookends/Bookends-BookendsWithAccents.otf");
 	}
   
 
-.article_container{font-family:"Mainsain Font";
+.article_container{font-family:"Mainsain";
 	font-weight: bold;
 	font-size:40pt;
 	color:#DE7709;
@@ -34,35 +34,35 @@
 	text-align:left;
 }
 
-h2{font-family:"Mainsain Font";
+h2{font-family:"Mainsain";
 font-weight: bold; 
 color:#DE7709;
 }
 
-h3{font-family:"Mainsain Font";
+h3{font-family:"Mainsain";
 color:#DE7709;
 }
 
-.title{font-family:"Mainsain Font";
+.title{font-family:"Mainsain";
 font-weight:bold;
 font-size:40pt;
 text-align:left;
 color:#DE7709;
 }
 .other_letters{font-size:13.5pt;}
-.subtitle{font-family:"Mainsain Font";
+.subtitle{font-family:"Mainsain";
 color:black;
 font-size:30pt;
 text-align:left;}
 
-.byline{font-family:"Mainsain Font";
+.byline{font-family:"Mainsain";
 color:black;
 font-weight: normal;
 font-size:16pt;
 text-align:left;
 margin-top: 50px;
 margin-bottom: 50px;}
-.publication_date{font-family:"Mainsain Font";
+.publication_date{font-family:"Mainsain";
 color:white;
 font-weight: normal;
 font-size:16pt;
@@ -105,7 +105,7 @@ text-align:left;}
 .credit{font-style:italic;
 }
 
-table{font-family:"Bookends"
+table{font-family:"Bookends";
 font-weight: normal;
 font-size: 10.5pt;
 border-collapse: collapse;
