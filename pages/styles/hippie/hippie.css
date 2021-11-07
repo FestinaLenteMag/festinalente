@@ -4,7 +4,7 @@
     src: url("fonts/hippie_movement/Hippie Movement.otf");
     }
 	
-@font-face{font-family: "shalma-font";
+@font-face{font-family: "Shalma";
     src: url("fonts/shalma-font/Shalma-Rp0Pe.otf");
 	}
   
@@ -27,7 +27,7 @@
 	width: 100%;
 	margin: auto;}
 
-.plaintext{font-family:"shalma-font";
+.plaintext{font-family:"Shalma";
 	font-weight: normal;
 	font-size:18pt;
 	color:black;
@@ -71,7 +71,7 @@ margin-top: 50px;
 margin-bottom: 50px;
 text-align:left;}
 
-.introduction{font-family:"shalma-font";
+.introduction{font-family:"Shalma";
 font-weight: normal;
 font-size:14pt;
 color:black;
@@ -83,11 +83,11 @@ text-align:left;}
 
 
 .editor_note{ 
-font-family:"shalma-font";
+font-family:"Shalma";
 text-align:left;}
-.bio{font-family:"shalma-font";
+.bio{font-family:"Shalma";
 text-align:left; }
-.copy{font-family:"shalma-font";
+.copy{font-family:"Shalma";
 text-align:left;
 font-style:italic;}
 
@@ -98,14 +98,14 @@ img {
   width: 100%;
 }
 
-figcaption{font-family:"shalma-font";
+figcaption{font-family:"Shalma";
 font-style: normal;
 padding:10px;
 text-align:left;}
 .credit{font-style:italic;
 }
 
-table{font-family:"shalma-font";
+table{font-family:"Shalma";
 font-weight: normal;
 font-size: 10.5pt;
 border-collapse: collapse;
@@ -125,7 +125,7 @@ table td {
 background: #D17719;
 }
 
-.table-caption{font-family:"shalma-font";
+.table-caption{font-family:"Shalma";
 }
 
 th, td {
