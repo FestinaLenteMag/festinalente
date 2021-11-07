@@ -4,8 +4,8 @@
     src: url("fonts/hippie_movement/Hippie Movement.otf");
     }
 	
-@font-face{font-family: "Boho Lifestyle";
-    src: url("Fonts/Boho-Lifestyle.ttf");
+@font-face{font-family: "shalma-font";
+    src: url("fonts/shalma-font/Shalma-Rp0Pe.otf");
 	}
   
 
@@ -27,7 +27,7 @@
 	width: 100%;
 	margin: auto;}
 
-.plaintext{font-family:"Boho Lifestyle";
+.plaintext{font-family:"shalma-font";
 	font-weight: normal;
 	font-size:18pt;
 	color:black;
@@ -71,7 +71,7 @@ margin-top: 50px;
 margin-bottom: 50px;
 text-align:left;}
 
-.introduction{font-family:"Boho Lifestyle";
+.introduction{font-family:"shalma-font";
 font-weight: normal;
 font-size:14pt;
 color:black;
@@ -83,11 +83,11 @@ text-align:left;}
 
 
 .editor_note{ 
-font-family:"Boho Lifestyle";
+font-family:"shalma-font";
 text-align:left;}
-.bio{font-family:"Boho Lifestyle";
+.bio{font-family:"shalma-font";
 text-align:left; }
-.copy{font-family:"Boho Lifestyle";
+.copy{font-family:"shalma-font";
 text-align:left;
 font-style:italic;}
 
@@ -98,14 +98,14 @@ img {
   width: 100%;
 }
 
-figcaption{font-family:"Boho Lifestyle";
+figcaption{font-family:"shalma-font";
 font-style: normal;
 padding:10px;
 text-align:left;}
 .credit{font-style:italic;
 }
 
-table{font-family:"Boho Lifestyle";
+table{font-family:"shalma-font";
 font-weight: normal;
 font-size: 10.5pt;
 border-collapse: collapse;
@@ -125,7 +125,7 @@ table td {
 background: #D17719;
 }
 
-.table-caption{font-family:"Boho Lifestyle";
+.table-caption{font-family:"shalma-font";
 }
 
 th, td {
