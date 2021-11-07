@@ -4,8 +4,8 @@
     src: url("fonts/hippie_movement/Hippie Movement.otf");
     }
 	
-@font-face{font-family: "bookends";
-    src: url("Fonts/bookends/Bookends-BookendsWithAccents.otf");
+@font-face{font-family: "Boho Lifestyle";
+    src: url("Fonts/Boho-Lifestyle.ttf");
 	}
   
 
@@ -27,7 +27,7 @@
 	width: 100%;
 	margin: auto;}
 
-.plaintext{font-family:"Bookends";
+.plaintext{font-family:"Boho Lifestyle";
 	font-weight: normal;
 	font-size:18pt;
 	color:black;
@@ -71,7 +71,7 @@ margin-top: 50px;
 margin-bottom: 50px;
 text-align:left;}
 
-.introduction{font-family:"Bookends";
+.introduction{font-family:"Boho Lifestyle";
 font-weight: normal;
 font-size:14pt;
 color:black;
@@ -83,11 +83,11 @@ text-align:left;}
 
 
 .editor_note{ 
-font-family:"Bookends";
+font-family:"Boho Lifestyle";
 text-align:left;}
-.bio{font-family:"Bookends";
+.bio{font-family:"Boho Lifestyle";
 text-align:left; }
-.copy{font-family:"Bookends";
+.copy{font-family:"Boho Lifestyle";
 text-align:left;
 font-style:italic;}
 
@@ -98,14 +98,14 @@ img {
   width: 100%;
 }
 
-figcaption{font-family:"Bookends";
+figcaption{font-family:"Boho Lifestyle";
 font-style: normal;
 padding:10px;
 text-align:left;}
 .credit{font-style:italic;
 }
 
-table{font-family:"Bookends";
+table{font-family:"Boho Lifestyle";
 font-weight: normal;
 font-size: 10.5pt;
 border-collapse: collapse;
@@ -125,7 +125,7 @@ table td {
 background: #D17719;
 }
 
-.table-caption{font-family:"Bookends";
+.table-caption{font-family:"Boho Lifestyle";
 }
 
 th, td {
