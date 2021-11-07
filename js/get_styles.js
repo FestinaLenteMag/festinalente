@@ -4,7 +4,7 @@ this.parentElement.removeChild(this);
 //Change style through buttons
 function changeStyle(selectedStyle) {
     var styleDeclaration = document.getElementById('ArticleCss');
-	if (styleDeclaration != null && styleDeclaration.length > 0) {
+	if (styleDeclaration != null) {
 		styleDeclaration[0].remove();
 	};
     cssFile = document.createElement('link');
@@ -12,7 +12,7 @@ function changeStyle(selectedStyle) {
     cssFile.rel = "stylesheet";
     cssFile.href = selectedStyle;
     cssFile.id= "ArticleCss";
-    var renewedStyle = document.getElementsByTagName("style")[0];
+    var renewedStyle = document.getElementsByTagName("head")[0];
 	if (renewedStyle != null) {
 		renewedStyle.appendChild(cssFile);
 	};
