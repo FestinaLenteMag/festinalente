@@ -5,7 +5,7 @@ this.parentElement.removeChild(this);
 function changeStyle(selectedStyle) {
     var styleDeclaration = document.getElementById('ArticleCss');
 	if (styleDeclaration != null && styleDeclaration.length > 0){
-		styleDeclaration.remove();
+		styleDeclaration.parentNode.removeChild(styleDeclaration);
 	};
     cssFile = document.createElement('link');
     cssFile.type = "text/css"; 
