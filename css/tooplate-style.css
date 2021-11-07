@@ -550,10 +550,16 @@ a {
   			overflow-y: auto;
 			font-size: 14px;
   		}
-		
+
+#metadata_options {
+	padding-top: 5rem;
+	font-size: 14px;
+}		
 #metadata_viewer {
 	font-size: 14px;
+	padding-bottom: 5rem;
 }
+
 
 .text-person {
 			background-color:#a6fffe;
@@ -606,3 +612,4 @@ a {
 #organisation-tab_c {
 			background-color:#13fb03;
 		}
+
