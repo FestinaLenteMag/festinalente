@@ -619,16 +619,18 @@ a {
 }
 
 #empty-column-1{
-	min-height: 400px;
-	padding-top:50px;
+	min-height: 350px;
+
 }
 
 #empty-column-2{
-	min-height: 400px;
-	padding-top:50px;
+	min-height: 350px;
 }
 
 #empty-column-3{
-	min-height: 400px;
-	padding-top:50px;
+	min-height: 350px;
+}
+
+#space{
+	padding:25px;
 }
