@@ -188,7 +188,7 @@ button:focus {
   text-align: center;
   width: 100%;
   margin: 2px;
-  
+  font-size: 14px; 
 }
 
 a {
