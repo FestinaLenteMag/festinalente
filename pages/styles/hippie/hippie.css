@@ -191,4 +191,7 @@ left: 0;
 
 blockquote{font-style:italic;}
 
-
+.tags{
+	font-style:italic;
+	word-spacing: 10px;
+}

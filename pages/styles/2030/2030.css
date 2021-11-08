@@ -226,4 +226,7 @@ blockquote{font-family:"Titillium Web";
 font-weight:italic;
 }
 
-
+.tags{
+	font-family:"Titillium Web";
+	word-spacing: 10px;
+}
