@@ -1,6 +1,0 @@
-This favicon was generated using the following font:
-
-- Font Title: Odibee Sans
-- Font Author: Copyright 2017 The Odibee Sans Project Authors (https://github.com/barnard555/odibeesans)
-- Font Source: http://fonts.gstatic.com/s/odibeesans/v4/neIPzCSooYAho6WvjeToRYkyepH9qGsf.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
