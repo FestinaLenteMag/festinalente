@@ -649,4 +649,5 @@ a {
 		
 #art_container{
 		max-height: 50vmax;
+		overflow:hidden;
 		}		
