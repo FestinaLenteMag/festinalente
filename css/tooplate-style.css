@@ -634,3 +634,19 @@ a {
 #space{
 	padding:25px;
 }
+
+#article_1{
+		max-height: 50vmax;
+		overflow-y:hidden;
+		overflow-x:hidden;
+		}
+
+#article_2{
+		max-height: 50vmax;
+		overflow-y:hidden;
+		overflow-x:hidden;
+		}
+		
+#art_container"{
+		max-height: 50vmax;
+		}		
