@@ -179,7 +179,7 @@ button:focus {
   min-width: 500px;
 }
 
-footer {
+.footer {
   padding: 1px;
   position: absolute;
   bottom: 0;
