@@ -113,7 +113,10 @@ padding: 10px;
   text-transform: capitalize;
 }
 
-
+.tags{
+	font-family:"IM Fell English";
+	word-spacing: 5px;
+}
 
 
 
