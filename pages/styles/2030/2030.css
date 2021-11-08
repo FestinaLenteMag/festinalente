@@ -51,6 +51,10 @@
 	background-color:#C997C3;
 }
 
+h1{font-family:"Titillium Web";
+   font-weight:bold;
+}
+
 h2{font-family:"Titillium Web";
    font-weight:bold;
 }
@@ -67,7 +71,7 @@ color:#000000;
 letter-spacing: 2pt;
 }
 .other_letters{font-size:13.5pt;
-font-weight:300;}
+font-weight:normal;}
 .subtitle{font-family:"Titillium Web";
 font-weight:300;
 font-size:30pt;
