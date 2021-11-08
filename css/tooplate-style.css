@@ -619,16 +619,16 @@ a {
 }
 
 #empty-column-1{
-	height: 400px;
+	min-height: 400px;
 	padding-top:50px;
 }
 
 #empty-column-2{
-	height: 400px;
+	min-height: 400px;
 	padding-top:50px;
 }
 
 #empty-column-3{
-	height: 400px;
+	min-height: 400px;
 	padding-top:50px;
 }
