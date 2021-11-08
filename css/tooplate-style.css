@@ -191,6 +191,9 @@ button:focus {
   font-size: 14px; 
 }
 
+#footer 
+{ font-size: 14px; }
+
 a {
   transition: all 0.3s ease;
 }
