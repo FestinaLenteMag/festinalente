@@ -69,11 +69,13 @@ button:focus {
 
 #top_art_vis {
   padding-top: 5px;
+  font-size: 20px;
 }
 
 #tm-section-2,
 #tm-section-6 {
   padding-top: 60px;
+
 }
 
 .tm-section-4 {
