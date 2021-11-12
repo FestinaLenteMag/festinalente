@@ -4,8 +4,8 @@
     src: url("fonts/hippie_movement/Hippie Movement.otf");
     }
 	
-@font-face{font-family: "OilBats";
-    src: url("fonts/oilbats/OilBats.ttf");
+@font-face{font-family: "Grotes Sans Font";
+    src: url("fonts/oilbats/GrotesSansDemoRegular-dpmR.ttf);
 	}
   
 
@@ -27,7 +27,7 @@
 	width: 100%;
 	margin: auto;}
 
-.plaintext{font-family:"OilBats";
+.plaintext{font-family:"Grotes Sans Font";
 	font-weight: normal;
 	font-size:18pt;
 	color:black;
@@ -73,7 +73,7 @@ margin-top: 50px;
 margin-bottom: 50px;
 text-align:left;}
 
-.introduction{font-family:"OilBats";
+.introduction{font-family:"Grotes Sans Font";
 font-weight: normal;
 font-size:14pt;
 color:black;
@@ -85,11 +85,11 @@ text-align:left;}
 
 
 .editor_note{ 
-font-family:"OilBats";
+font-family:"Grotes Sans Font";
 text-align:left;}
-.bio{font-family:"OilBats";
+.bio{font-family:"Grotes Sans Font";
 text-align:left; }
-.copy{font-family:"OilBats";
+.copy{font-family:"Grotes Sans Font";
 text-align:left;
 font-style:italic;}
 
@@ -100,14 +100,14 @@ img {
   width: 100%;
 }
 
-figcaption{font-family:"OilBats";
+figcaption{font-family:"Grotes Sans Font";
 font-style: normal;
 padding:10px;
 text-align:left;}
 .credit{font-style:italic;
 }
 
-table{font-family:"OilBats";
+table{font-family:"Grotes Sans Font";
 font-weight: normal;
 font-size: 10.5pt;
 border-collapse: collapse;
@@ -127,7 +127,7 @@ table td {
 background: #D17719;
 }
 
-.table-caption{font-family:"OilBats";
+.table-caption{font-family:"Grotes Sans Font";
 }
 
 th, td {
